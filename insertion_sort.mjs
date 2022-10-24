@@ -10,7 +10,7 @@ function insertionSort(arr) {
   let j;
   //on declare notre variable j
   //et on va partir de l'élement juste avant
-  for(j = i - 1; j >= 0 && arr[j] > value; j--;{
+  for(j = i - 1; j >= 0 && arr[j] > value; j--) {
   //j est superieur ou egal à 0 et l'autre condition c'est qu'elle soit 
   //superieur à la valeur memorisee auparavant.
       arr[j + 1] = arr[j]
